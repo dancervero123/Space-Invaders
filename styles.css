@@ -1,0 +1,56 @@
+body{
+    background:url("http://cdn.spacetelescope.org/archives/images/screen/heic1112d.jpg");
+    cursor:none;  
+}
+
+.main{
+    text-align:center;
+}
+
+.cursor{
+   height:20px;
+   width:20px;
+   position:absolute;
+    }
+
+.ship{
+    height:100px;
+    }
+.bugs{
+    display:flex;
+}
+
+.bugsTwo{
+    display:flex;
+}
+
+
+
+.picBug{
+    height:150px;
+    margin:10px;
+}
+
+.dot{
+    height:50px;
+    width:50px;
+    margin:50px;
+}
+.pellets{
+    display:flex;
+}
+
+.gameover{
+    display:none;
+    text-align:center;
+    color:yellow;
+    font-size:50px;
+    font-family: 'Bungee', cursive;
+    text-decoration: underline white;
+}
+
+button{
+ display:none;
+ font-family: 'Bungee', cursive;
+
+}
